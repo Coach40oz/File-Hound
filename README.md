@@ -23,7 +23,7 @@ Direct Execution from GitHub
 You can run File Hound directly from GitHub with this command:
 
 Launch PowerShell and run:
-iex (iwr https://github.com/Coach40oz/File-Hound/blob/main/File%20Hound.ps1 -UseBasicParsing).Content
+```iex (iwr https://github.com/Coach40oz/File-Hound/blob/main/File%20Hound.ps1 -UseBasicParsing).Content```
 
 Manual Download and Execution
 
@@ -51,29 +51,6 @@ Drive Selection: Choose specific drives or scan all available drives
 Deep Search: Enable for recursive searching through all subdirectories
 Result Export: Save findings to CSV for documentation and analysis
 
-Example Usage Scenarios
-Quick File Search:
-powershellCopy# Run File Hound
-.\File` Hound.ps1
-# Enter filename: "backup"
-# Enter extension: ".log"
-# Select drives: "c"
-# Deep search: "y"
-Find All Configuration Files:
-powershellCopy# Run File Hound
-.\File` Hound.ps1
-# Enter filename: "*"
-# Enter extension: ".config"
-# Select drives: "a" (all drives)
-# Deep search: "y"
-Locate Missing Documents:
-powershellCopy# Run File Hound
-.\File` Hound.ps1
-# Enter filename: "project*"
-# Enter extension: ".docx"
-# Select drives: "c,d"
-# Deep search: "y"
-# Export to CSV: "y"
 🔮 Understanding the Output
 File Hound displays results in a clear, tabular format showing:
 
