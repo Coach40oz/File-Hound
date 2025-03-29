@@ -23,7 +23,7 @@ Direct Execution from GitHub
 You can run File Hound directly from GitHub with this command:
 
 Launch PowerShell and run:
-```irm https://github.com/Coach40oz/File-Hound/blob/main/File%20Hound.ps1 | iex```
+```irm https://raw.githubusercontent.com/Coach40oz/File-Hound/refs/heads/main/File%20Hound.ps1 | iex```
 
 Manual Download and Execution
 
