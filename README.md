@@ -22,7 +22,7 @@ Option 1: Direct Execution from GitHub
 
 Launch PowerShell as Administrator and run:
 
-irm https://raw.githubusercontent.com/Coach40oz/File-Hound/main/File-Hound.ps1 | iex
+```irm https://raw.githubusercontent.com/Coach40oz/File-Hound/main/File-Hound.ps1 | iex```
 
 Option 2: Manual Download and Execution
 
@@ -30,11 +30,12 @@ Download the File-Hound.ps1 file to your computer
 
 Ensure PowerShell execution policy allows script execution:
 
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+```Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process```
 
 Run the script:
 
 .\File-Hound.ps1
+
 📖 How to Use
 Running File Hound
 
