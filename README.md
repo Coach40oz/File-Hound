@@ -22,7 +22,7 @@ Option 1: Direct Execution from GitHub
 
 Launch PowerShell as Administrator and run:
 
-```irm https://raw.githubusercontent.com/Coach40oz/File-Hound/main/File-Hound.ps1 | iex```
+```irm https://raw.githubusercontent.com/Coach40oz/File-Hound/refs/heads/main/File%20Hound.ps1 | iex```
 
 Option 2: Manual Download and Execution
 
