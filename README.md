@@ -17,19 +17,24 @@ PowerShell 5.1 or higher
 Administrator privileges (recommended for full drive access)
 
 💻 Installation & Execution
+
 Option 1: Direct Execution from GitHub
+
 Launch PowerShell as Administrator and run:
-powershellCopyirm https://raw.githubusercontent.com/Coach40oz/File-Hound/main/File-Hound.ps1 | iex
+
+irm https://raw.githubusercontent.com/Coach40oz/File-Hound/main/File-Hound.ps1 | iex
+
 Option 2: Manual Download and Execution
 
 Download the File-Hound.ps1 file to your computer
+
 Ensure PowerShell execution policy allows script execution:
 
-powershellCopySet-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Run the script:
 
-powershellCopy.\File-Hound.ps1
+.\File-Hound.ps1
 📖 How to Use
 Running File Hound
 
@@ -99,7 +104,7 @@ Version 1.0.0 - Initial release (March 2025)
 
 📝 License
 This tool is released under the MIT License.
-CopyMIT License
+MIT License
 Copyright (c) 2025 Coach40oz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
